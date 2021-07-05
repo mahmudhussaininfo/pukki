@@ -1,0 +1,92 @@
+.nav-link{
+    padding: 0 20px !important;
+    font-size: 20px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-weight: bolder;
+}
+.navbar-brand{
+    font-size: 38px !important;
+}
+
+.header{
+    background-image: url(/images/banner9.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.home-title-img img{
+    border-radius: 20px;
+}
+.service{
+    background-color: #FEF8F5;
+}
+.section-title h2{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 0px;
+    line-height: 1px;
+    margin-bottom: 15px;
+    color: rgb(194, 183, 177);
+}
+.card{
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+}
+.card-body i{
+    color: tomato;
+    font-size: 30px;
+    padding-bottom: 16px;
+}
+.card:hover{
+    transform: translateY(-7px);
+    border-bottom: tomato;
+}
+
+.dott{
+    margin-top: -22px;
+    margin-bottom: 42px;
+    width: 111px;
+    border: 2px dotted red;
+    border-bottom: none;
+}
+
+.my-tab li{
+    list-style: none;
+    display: inline-block;
+}
+.my-tab li a{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+}
+.my-tab li.active a{
+    color: red;
+}
+.all-img{
+    position: relative;
+}
+
+
+.all-det h5{
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-size: 30px;
+    color: #e8ff68;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+
+    transition: .4s ease-in-out;
+    transform: translateY(40px);
+   
+}
+.all-img:hover .all-det h5{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+} 
